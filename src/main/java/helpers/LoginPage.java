@@ -61,6 +61,7 @@ public class LoginPage {
 
             GetHomePage.assertTitle(driver);
         }
+
         finally {
             if (driver != null)
             {
