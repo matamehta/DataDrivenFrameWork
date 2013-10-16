@@ -1,6 +1,6 @@
 package helpers;
 
-public class Login {
+public class ReadLoginData {
 
    private String loginEmail;
    private String password;

@@ -12,5 +12,5 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 
 public interface ReadData {
-    String[][] getData();
+    Object[][] getData();
 }

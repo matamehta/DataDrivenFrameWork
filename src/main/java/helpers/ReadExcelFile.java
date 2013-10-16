@@ -11,7 +11,7 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 
-public class ReadExcel implements ReadData {
+public class ReadExcelFile implements ReadData {
 
     @Override
     public String[][] getData() {
@@ -61,3 +61,4 @@ public class ReadExcel implements ReadData {
     }
 }
 
+//return new ReadJsonFile().getData(); (to read in the dataprovider)
