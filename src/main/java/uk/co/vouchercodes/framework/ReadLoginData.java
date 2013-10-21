@@ -1,6 +1,6 @@
-package helpers;
+package uk.co.vouchercodes.framework;
 
-public class ReadLoginData {
+public class ReadLogInData {
 
    private String loginEmail;
    private String password;
