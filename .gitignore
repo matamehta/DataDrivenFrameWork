@@ -1,3 +1,8 @@
 .idea
 target
 *.iml
+.DS_STORE
+src/main/java/uk/co/vouchercodes/framework/BaseUrl.java
+src/main/java/uk/co/vouchercodes/framework/PropertyUtils.java
+src/main/java/uk/co/vouchercodes/framework/ReadExcelFile.java
+src/main/java/uk/co/vouchercodes/framework/ReadExcelPrinting.java
