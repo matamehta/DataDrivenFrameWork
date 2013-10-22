@@ -18,7 +18,7 @@ public class SignInTest {
     private WebDriverWait wait;
 
     @DataProvider(name = "signInData")
-    public Object[][] createData1() {
+    public Object[][] createData() {
         return new ReadJsonFile().getData();
     }
 
