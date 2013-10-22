@@ -1,5 +1,6 @@
 package uk.co.vouchercodes.tests;
 
+import org.testng.annotations.AfterMethod;
 import uk.co.vouchercodes.framework.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -30,13 +31,11 @@ public class SignInTest {
 
     @Test(dataProvider = "signInData")
     public void testSignIn(ReadLogInData loginParameter) throws Exception {
-
-        try{
         signInSetUp.signInSetup(loginParameter.getLoginEmail(), loginParameter.getPassword());
-        }
-
-        finally {
-            driver.quit();
-        }
     }
+
+    @AfterMethod
+     public void quitdriver(){
+        driver.quit();
+     }
 }
